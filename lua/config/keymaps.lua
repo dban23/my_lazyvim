@@ -4,3 +4,6 @@
 
 -- Pasting over selection possible in multiple places
 vim.keymap.set("x", "<leader>p", '"_dP', { noremap = true, silent = true })
+
+-- Yank text outside of neovim
+vim.keymap.set("x", "<leader>y", '"+y', { noremap = true, silent = true })
