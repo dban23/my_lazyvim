@@ -3,4 +3,4 @@
 -- Add any additional keymaps here
 
 -- Pasting over selection possible in multiple places
-vim.keymap.set("x", "<leader>p", '"_dp', { noremap = true, silent = true })
+vim.keymap.set("x", "<leader>p", '"_dP', { noremap = true, silent = true })
